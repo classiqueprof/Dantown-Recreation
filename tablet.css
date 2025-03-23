@@ -1,0 +1,233 @@
+body {
+  font-family: "Rubik", sans-serif;
+  /* background-color: gold; */
+}
+
+.logo {
+  width: 190px;
+  height: 50px;
+}
+
+.items {
+  display: none;
+}
+
+.nav ul {
+  display: none;
+}
+.one-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* flex-direction: column; */
+  height: 75px;
+  width: 93%;
+  margin: auto;
+}
+
+.navbar {
+  height: 50px;
+}
+
+.smart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.download {
+  color: white;
+  background-color: rgb(17, 96, 210);
+  padding: 15px 20px;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+.choice {
+  background-color: rgb(252, 252, 253);
+  padding: 60px 35px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.possible {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.card {
+  font-size: 19px;
+}
+
+.dan {
+  width: 342px;
+  height: 342px;
+}
+
+.feature {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+
+.newspapers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.offer {
+  font-size: 16px;
+  color: rgb(119, 126, 144);
+}
+
+.bills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.three {
+  width: 500px;
+  height: 500px;
+}
+
+.crypto {
+  font-size: 18px;
+  margin-bottom: 50px;
+  width: 13rem;
+}
+
+.place {
+  width: 385px;
+  height: 385px;
+}
+
+.app {
+  width: 160.83px;
+  height: 50.38px;
+}
+
+.google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.take {
+  font-size: 45px;
+}
+
+.step {
+  font-size: 16px;
+  text-align: center;
+  color: rgb(53, 57, 69);
+  margin-bottom: 50px;
+  word-spacing: 5px;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  align-items: center;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  background-color: rgb(252, 252, 253);
+}
+
+.towm {
+  flex: 2 1 30rem;
+}
+
+.line {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .contain,
+  .possible {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .google {
+    flex-direction: column-reverse;
+    gap: 3rem;
+  }
+
+  .bills {
+    flex-direction: column;
+    gap: 3rem;
+    padding: 0;
+  }
+
+  .card h2 br,
+  .now br {
+    display: none;
+  }
+
+  .card {
+    padding: 0 2rem;
+  }
+
+  .bills p br {
+    display: none;
+  }
+
+  .foot {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+  }
+
+  .right {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 2rem;
+  }
+
+  .store,
+  .card {
+    text-align: center;
+  }
+
+  .buy {
+    padding-top: 2rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 150px;
+    gap: 2rem;
+  }
+
+  .visit {
+    align-self: flex-start;
+    margin: 0;
+  }
+
+  .create {
+    align-self: flex-start;
+    margin-left: 2rem;
+  }
+
+  .free {
+    align-self: flex-start;
+    margin: 0;
+  }
+}

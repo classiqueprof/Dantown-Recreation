@@ -1,0 +1,482 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.logo {
+  width: 190px;
+  height: 50px;
+}
+
+.nav {
+  list-style-type: none;
+}
+
+.nav a {
+  color: black;
+  font-size: 17.5px;
+}
+.scan {
+  font-size: 17px;
+  color: black;
+  border: 1px solid black;
+  padding: 8px 16px;
+  border-radius: 15px;
+}
+
+.scan:hover {
+  color: white;
+  background-color: rgb(11, 11, 110);
+}
+
+.one-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100px;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  margin-right: 30px;
+}
+
+.navbar {
+  height: 80px;
+}
+
+.fa-chevron-down {
+  font-size: 14px;
+}
+
+span {
+  color: rgb(11, 11, 110);
+}
+
+.download {
+  color: white;
+  background-color: rgb(17, 96, 210);
+  padding: 15px 20px;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+.total {
+  font-size: 45px;
+}
+
+.pay {
+  font-size: 17px;
+  color: rgb(119, 146, 191);
+}
+
+.smart {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* .circle {
+    width: 500px;
+}
+ */
+/* .img1 {
+    min-height: ;
+} */
+
+.choice {
+  background-color: rgb(252, 252, 253);
+  padding: 60px 35px;
+  border-radius: 10px;
+  /* background-image: url("Images/download\ \(21\).svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.pick {
+  font-size: 32px;
+  font-weight: 700;
+  color: rgb(35, 38, 47);
+}
+
+.buy {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.curry {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.message {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.buy:hover,
+.curry:hover,
+.message:hover {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.explore {
+  text-align: center;
+  font-size: 20px;
+}
+
+.contain {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.more {
+  width: 30px;
+  height: 30px;
+}
+
+.more1 {
+  font-size: 18px;
+  font-weight: 450;
+  text-align: center;
+}
+
+.vertical-line {
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  height: 120px;
+  margin-top: 40px;
+}
+
+.dan {
+  width: 400px;
+  height: 400px;
+}
+
+.possible {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.card {
+  font-size: 22px;
+}
+
+.now {
+  font-size: 16px;
+}
+
+.feature {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.van {
+  width: 120px;
+  padding: 10px;
+}
+
+.van1 {
+  width: 120px;
+}
+
+.newspapers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.terms {
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.2;
+  margin-bottom: 60px;
+}
+
+.offer {
+  font-size: 16px;
+  color: rgb(119, 126, 144);
+}
+
+.color {
+  width: 15px;
+  height: 94px;
+}
+
+.crypto {
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.three {
+  width: 500px;
+  height: 500px;
+}
+
+.bills {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.place {
+  width: 600px;
+  height: 600px;
+}
+
+.store {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.payment {
+  font-size: 16px;
+  color: rgb(119, 126, 144);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.google {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.step {
+  font-size: 16px;
+  text-align: center;
+  color: rgb(53, 57, 69);
+  margin-bottom: 50px;
+}
+
+.take {
+  font-size: 32px;
+  font-weight: 700;
+  color: rgb(33, 37, 41);
+}
+
+.box {
+  width: 107px;
+  height: 130px;
+}
+
+.and {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(124, 128, 135);
+}
+
+.and2 {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(124, 128, 135);
+}
+
+.and3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(124, 128, 135);
+}
+
+.search {
+  color: rgb(33, 37, 41);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.register {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 150px;
+}
+
+.visit {
+  align-self: flex-start;
+  margin: 0 200px;
+}
+
+.create {
+  align-self: center;
+}
+
+.free {
+  align-self: flex-end;
+  margin: 0 200px;
+}
+
+.our {
+  font-size: 20px;
+  color: rgb(33, 37, 41);
+  font-weight: 500;
+}
+
+.u-list {
+  font-size: 16px;
+  font-weight: 400;
+  list-style: none;
+}
+
+.u-list1 {
+  font-size: 16px;
+  font-weight: 400;
+  list-style: none;
+}
+
+.u-list2 {
+  font-size: 16px;
+  font-weight: 400;
+  list-style: none;
+}
+
+.company {
+  line-height: 1.9;
+}
+
+.com {
+  line-height: 2.5;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  background-color: rgb(252, 252, 253);
+}
+
+#fname {
+  width: 200px;
+  height: 30px;
+  padding-left: 20px;
+  border-radius: 15px;
+}
+
+#email {
+  width: 200px;
+  height: 30px;
+  padding-left: 20px;
+  border-radius: 15px;
+}
+
+#submit {
+  border: none;
+  background-color: rgb(17, 96, 210);
+  color: white;
+  padding: 12px 85px;
+  border-radius: 15px;
+}
+
+.town,
+.company,
+.com,
+.letter {
+  align-self: flex-start;
+}
+
+.media {
+  padding: 0 10px;
+}
+
+.right {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background-color: rgb(252, 252, 253);
+}
+
+.copy {
+  font-size: 18px;
+  color: rgb(33, 37, 41);
+}
+
+.line {
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  height: 300px;
+}
+
+@media (max-width: 1024px) {
+  .smart {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .vertical-line {
+    display: none;
+  }
+
+  .bills {
+    padding: 0 5rem;
+  }
+
+  .bills br,
+  .payment br {
+    display: none;
+  }
+
+  .google {
+    padding: 0 2rem;
+  }
+
+  .register {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 150px;
+  }
+
+  .visit {
+    align-self: flex-start;
+    margin: 0;
+    padding: 0 2rem;
+  }
+
+  .create {
+    align-self: center;
+  }
+
+  .free {
+    align-self: flex-end;
+    margin: 0;
+    padding: 0 2rem;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .foot {
+    flex-wrap: wrap;
+  }
+}

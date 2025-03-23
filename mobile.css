@@ -1,0 +1,69 @@
+.place {
+  width: 300px;
+  height: 300px;
+}
+
+.offer br {
+  display: none;
+}
+
+.offer {
+  padding: 0 0.2rem;
+}
+
+.terms {
+  margin-top: 2rem;
+}
+
+.fast h2,
+.pick,
+.using {
+  font-size: 32px;
+}
+
+.phone img {
+  width: 300px;
+  height: 300px;
+}
+
+#many {
+  margin-left: -1rem;
+}
+
+.app {
+  width: 160px;
+  height: 50px;
+}
+
+.take,
+.terms h2,
+.card h2,
+.explore h2 {
+  font-size: 24px;
+}
+
+.step p br {
+  display: none;
+}
+
+.step p {
+  padding: 0 0.5rem;
+}
+
+@media (max-width: 375px) {
+  .choice img {
+    width: 24px;
+    height: 24px;
+    padding-right: 0.5rem;
+  }
+
+  .store img {
+    width: 136px;
+    height: 42px;
+  }
+
+  .virtual img {
+    width: 285px;
+    height: 285px;
+  }
+}
