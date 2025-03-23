@@ -67,3 +67,10 @@
     height: 285px;
   }
 }
+
+@media (max-width: 320px) {
+  .store img {
+    width: 112px;
+    height: 35px;
+  }
+}
